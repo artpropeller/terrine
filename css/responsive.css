@@ -87,3 +87,9 @@
         margin-top: 10px;
     }
 }
+
+@media (max-width:768px){
+    .scroll .inner{
+        padding-right: 50px;
+    }
+}
