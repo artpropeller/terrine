@@ -92,4 +92,8 @@
     .scroll .inner{
         padding-right: 50px;
     }
+
+    .top_shadow{
+        width: 90%;
+    }
 }
