@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="628152e8-a76b-443c-b474-b47920cf0c78" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/responsive.css" afterPath="$PROJECT_DIR$/css/responsive.css" />
     </list>
     <ignored path="TERRINE.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -229,7 +228,11 @@
       <created>1352726942353</created>
       <updated>1352726942353</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="all">
+      <created>1352727059547</created>
+      <updated>1352727059547</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
