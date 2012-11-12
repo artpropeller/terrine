@@ -33,6 +33,13 @@ $(function () {
 
     });
 
+    $(window).resize(function () {
+        $('.gallery').jCarouselLite({
+            showArrows:true,
+            arrowScrollOnHover:true
+        });
+    });
+
 
     $('.fancybox').fancybox();
 
