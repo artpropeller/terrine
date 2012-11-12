@@ -1,0 +1,89 @@
+@media (min-width:640px) and (max-width:999px){
+
+    .content{
+        float: none;
+        width: auto;
+        height: 125px;
+
+    }
+
+    .right{
+        width: auto;
+        margin-left: 190px;
+        float: none;
+
+    }
+
+    .scroll .inner{
+        float: none;
+        width: auto;
+        padding-right: 180px;
+
+    }
+
+    .scroll{
+        height: 125px;
+        width: auto !important;
+    }
+
+    .jspContainer{
+        width: auto !important;
+
+    }
+
+    .left{
+        margin-right: 0;
+        padding-left: 10px;
+        width: 161px;
+    }
+
+    .jspPane {
+        width: auto !important;
+    }
+
+    .bottom_shadow{
+        width: 100%;
+        margin-top: 115px;
+        margin-left: 0;
+
+
+    }
+
+    .top_shadow{
+        width: 75%;
+        margin-left: 0;
+
+    }
+
+    .gallery img{
+        width: 250px;
+        display: inline;
+        height: 180px;
+
+
+    }
+
+
+
+    .gallery li{
+        width: 340px;
+        text-align: center;
+    }
+
+    #slider{
+        height: 180px;
+
+    }
+
+    .contacts_bottom{
+        left:10px
+    }
+
+    .right .container{
+        padding-top: 0;
+    }
+
+    .menu{
+        margin-top: 10px;
+    }
+}

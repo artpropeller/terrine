@@ -1,0 +1,374 @@
+body {
+    background: #fff url("../images/main_background2.gif") no-repeat 50% 50%;
+    height: 100%;
+    font-size: 11px;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+}
+
+#cont {
+    max-width: 1000px;
+    height: 620px;
+    margin: 105px auto 0;
+
+}
+
+.left {
+    border-left: 1px dotted #424242;
+    height: 470px;
+    width: 170px;
+    float: left;
+    margin-right: 50px;
+    position: relative;
+
+}
+
+.left .title {
+    display: block;
+    background: #000;
+    position: relative;
+    margin-left: -1px;
+    padding-bottom: 10px;
+}
+
+.left .title span {
+    text-transform: uppercase;
+    font-size: 14px;
+    display: block;
+}
+
+.left .title em {
+    font-style: normal;
+    font-size: 10px;
+    color: #bfbfbf;
+}
+
+.menu {
+    background: #000;
+    margin-left: -1px;
+    position: relative;
+    margin-top: 40px;
+    padding: 5px 0;
+}
+
+.menu li a {
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 4px 0;
+    display: block;
+}
+
+.menu li ul {
+    border-left: 1px dotted #424242;
+    padding-left: 10px;
+    display: none;
+
+}
+
+.menu li.active a {
+    text-decoration: underline;
+}
+
+.menu li.active li a {
+    text-decoration: none;
+    color: #bfbfbf;
+    line-height: 14px;
+    font-size: 11px;
+
+    padding-top: 2px;
+    padding-bottom: 2px;
+
+}
+
+.menu li.active li.active a, .menu li.active li.active li.active a {
+    text-decoration: underline;
+
+}
+
+.menu li.active li.active li a {
+    text-decoration: none;
+    font-size: 10px;
+    text-transform: none;
+    padding: 1px 0;
+}
+
+.menu li.active li.active ul {
+    margin-left: 11px;
+}
+
+.menu li.active li {
+
+}
+
+.menu li.active ul {
+    padding-top: 3px;
+}
+
+.black {
+    background: #000;
+    margin-left: -11px;
+}
+
+.right {
+    width: 620px;
+    float: left;
+}
+
+.right .logo {
+    display: block;
+    position: relative;
+    top: -300px;
+}
+
+.scroll {
+    height: 255px;
+    padding-left: 25px;
+    padding-top: 10px;
+
+}
+
+.scroll .inner {
+    padding: 15px 0;
+    width: 205px;
+    float: left;
+
+}
+
+.right h1 {
+    font-size: 18px;
+    padding-bottom: 7px;
+
+}
+
+.right .podpis {
+    font-style: normal;
+    font-size: 12px;
+    color: #7d7d7d;
+    padding-bottom: 10px;
+    display: block;
+}
+
+.right .container {
+    padding-top: 35px;
+}
+
+.content {
+    position: relative;
+    width: 230px;
+    float: left;
+}
+
+.content p {
+    line-height: 13px;
+    font-size: 11px;
+    padding-bottom: 10px;
+}
+
+/*scroll pane*/
+.jspPane {
+    width: 230px !important;
+}
+
+.jspContainer {
+    overflow: hidden;
+    position: relative;
+}
+
+.jspPane {
+    position: absolute;
+}
+
+.jspVerticalBar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 7px;
+    height: 100%;
+    z-index: 1000;
+}
+
+.jspHorizontalBar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 16px;
+}
+
+.jspVerticalBar *,
+.jspHorizontalBar * {
+    margin: 0;
+    padding: 0;
+}
+
+.jspCap {
+    display: none;
+}
+
+.jspHorizontalBar .jspCap {
+    float: left;
+}
+
+.jspTrack {
+    position: relative;
+    background: url(../images/track.png) repeat-y;
+}
+
+.jspDrag {
+    background: #BFBFBF;
+    position: relative;
+    top: 0;
+    left: 0;
+    cursor: pointer; /*  border:1px solid #A19684;*/
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    width: 5px;
+    margin: 0 1px 0 1px;
+}
+
+.jspHover {
+}
+
+.jspHorizontalBar .jspTrack,
+.jspHorizontalBar .jspDrag {
+    float: left;
+    height: 100%;
+}
+
+.jspArrow {
+    background: #50506d;
+    text-indent: -20000px;
+    display: block;
+    cursor: pointer;
+}
+
+.jspArrow.jspDisabled {
+    /*cursor: default;*/
+    cursor: pointer; /*background: none;*/
+}
+
+.jspArrowDown {
+    background: url('../images/arrow_botton.png') no-repeat bottom;
+    z-index: 1000;
+}
+
+.jspArrowUp {
+    background: url('../images/arrow_top.png') no-repeat bottom;
+    z-index: 1000;
+}
+
+.jspVerticalBar .jspArrow {
+    height: 16px;
+}
+
+.jspHorizontalBar .jspArrow {
+    width: 16px;
+    float: left;
+    height: 100%;
+}
+
+.jspVerticalBar .jspArrow:focus {
+    outline: none;
+}
+
+.jspCorner {
+    background: #eeeef4;
+    float: left;
+    height: 100%;
+}
+
+* html .jspCorner {
+    margin: 0 -3px 0 0;
+}
+
+/*sroll pane end*/
+
+.top_shadow {
+    height: 13px;
+    width: 220px;
+    background: url(../images/test.png) repeat-x left;
+    position: absolute;
+    z-index: 1;
+    margin: 0px 0 0 10px;
+}
+
+.bottom_shadow {
+    height: 13px;
+    width: 220px;
+    background: url(../images/test2.png) repeat-x left;
+    position: absolute;
+    z-index: 1;
+    margin: 242px 0 0 10px;
+}
+
+.contacts_bottom {
+    position: absolute;
+    background: #000 url("../images/logo_small2.gif") no-repeat left 10px;
+    padding-top: 20px;
+    height: 40px;
+    width: 150px;
+    left: -1px;
+    top: 460px;
+    color: #bfbfbf;
+    font-size: 11px;
+}
+
+.contacts_bottom p {
+    margin-top: 15px;
+}
+
+.gallery {
+    width: 340px !important;
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+    position: relative;
+    height: 235px;
+
+}
+
+.gallery img{
+    height: 235px;
+    width: 353px;
+
+}
+
+#slider .prev {
+    background: url("../images/ar_left.gif") no-repeat;
+    width: 19px;
+    height: 30px;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    z-index: 1000;
+    cursor: pointer;
+
+}
+
+#slider .next {
+    background: url("../images/ar_right.gif") no-repeat;
+    width: 19px;
+    height: 30px;
+    left: 400px;
+    top: 50%;
+    z-index: 1000;
+    position: absolute;
+    cursor: pointer;
+
+}
+
+#slider{
+    position: relative;
+    width: 340px;
+    float: left;
+    height: 235px;
+
+}
+
+
+
+
+
