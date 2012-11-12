@@ -26,7 +26,7 @@
       <file leaf-file-name="responsive.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/responsive.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="205" column="20" selection-start="2761" selection-end="2761" vertical-scroll-proportion="0.7266082">
+            <state line="206" column="22" selection-start="2784" selection-end="2784" vertical-scroll-proportion="0.751462">
               <folding />
             </state>
           </provider>
@@ -221,7 +221,11 @@
       <created>1352725820691</created>
       <updated>1352725820691</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="all">
+      <created>1352726735593</created>
+      <updated>1352726735593</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -361,7 +365,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="205" column="20" selection-start="2761" selection-end="2761" vertical-scroll-proportion="0.7266082">
+        <state line="206" column="22" selection-start="2784" selection-end="2784" vertical-scroll-proportion="0.751462">
           <folding />
         </state>
       </provider>

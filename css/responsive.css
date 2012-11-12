@@ -204,6 +204,7 @@
 
     .right{
         float: left;
+        margin-left: 0;
     }
 
     .left .title span {
