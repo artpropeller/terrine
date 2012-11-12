@@ -6,6 +6,12 @@ body {
     font-family: 'Arial', sans-serif;
 }
 
+a{
+    color: #fff;
+
+
+}
+
 #cont {
     max-width: 1000px;
     height: 620px;
@@ -366,6 +372,10 @@ body {
     float: left;
     height: 235px;
 
+}
+
+.nav_activation{
+    display: none;
 }
 
 

@@ -11,17 +11,17 @@ $(function () {
     });
 
     $('.menu li.active').parents('ul').show(0);
-    $('.logo').animate({top:-15}, {duration:2000, easing:'easeOutBounce'});
+    $('.logo').animate({top:0}, {duration:2000, easing:'easeOutBounce'});
 
     $('.scroll').jScrollPane({
         showArrows:true,
-        arrowScrollOnHover:true
+        arrowScrollOnClick:true
     });
 
     $(window).resize(function () {
         $('.scroll').jScrollPane({
             showArrows:true,
-            arrowScrollOnHover:true
+            arrowScrollOnClick:true
         });
     });
 
@@ -42,6 +42,13 @@ $(function () {
 
 
     $('.fancybox').fancybox();
+
+    $('.nav_activation').click(function(){
+        $(this).parent().find('.navigation').slideToggle(500);
+
+
+
+    });
 
 
 });

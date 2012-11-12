@@ -1,99 +1,291 @@
-@media (min-width:480px) and (max-width:999px){
-
-    .content{
+@media (max-width:999px) {
+    .content {
         float: none;
         width: auto;
-        height: 125px;
 
     }
 
-    .right{
+    .right {
         width: auto;
-        margin-left: 190px;
         float: none;
 
     }
 
-    .scroll .inner{
+    .scroll .inner {
         float: none;
         width: auto;
-        padding-right: 180px;
 
     }
 
-    .scroll{
-        height: 125px;
+    .scroll {
         width: auto !important;
     }
 
-    .jspContainer{
+    .jspContainer {
         width: auto !important;
 
-    }
-
-    .left{
-        margin-right: 0;
-        padding-left: 10px;
-        width: 161px;
     }
 
     .jspPane {
         width: auto !important;
     }
 
-    .bottom_shadow{
+    .bottom_shadow {
         width: 100%;
         margin-top: 115px;
         margin-left: 0;
 
-
     }
 
-    .top_shadow{
+    .top_shadow {
         width: 75%;
         margin-left: 0;
 
     }
 
-    .gallery img{
+    .right .container {
+        padding-top: 15px;
+    }
+
+}
+
+@media (min-width:480px) and (max-width:999px) {
+
+    .content {
+        height: 125px;
+
+    }
+
+    .right {
+
+        margin-left: 190px;
+
+    }
+
+    .scroll .inner {
+
+        padding-right: 180px;
+
+    }
+
+    .scroll {
+        height: 125px;
+
+    }
+
+    .left {
+        margin-right: 0;
+        padding-left: 10px;
+        width: 161px;
+    }
+
+    .bottom_shadow {
+        width: 100%;
+        margin-top: 115px;
+        margin-left: 0;
+
+    }
+
+    .top_shadow {
+        width: 75%;
+        margin-left: 0;
+
+    }
+
+    .gallery img {
         width: 250px;
         display: inline;
         height: 180px;
 
-
     }
 
-
-
-    .gallery li{
+    .gallery li {
         width: 340px;
         text-align: center;
     }
 
-    #slider{
+    #slider {
         height: 180px;
 
     }
 
-    .contacts_bottom{
-        left:10px
+    .contacts_bottom {
+        left: 10px
     }
 
-    .right .container{
-        padding-top: 0;
+    .right .container {
+        padding-top: 15px;
     }
 
-    .menu{
+    .menu {
         margin-top: 10px;
     }
 }
 
-@media (max-width:768px){
-    .scroll .inner{
+@media (max-width:768px) {
+    .scroll .inner {
         padding-right: 50px;
+
     }
 
-    .top_shadow{
+    .content p {
+        font-size: 13px;
+        line-height: 16px;
+    }
+
+    .top_shadow {
         width: 90%;
     }
+
+}
+
+@media (min-width:490px) and (max-width:640px) {
+
+    #slider {
+        width: 200px;
+        height: 130px;
+    }
+
+    .gallery img {
+        width: 200px;
+        height: 130px;
+    }
+
+    .gallery li {
+        width: 200px !important;
+    }
+
+    .gallery {
+        width: 200px !important;
+    }
+
+    #slider .next {
+        left: 260px;
+    }
+
+}
+
+@media (max-width:490px) {
+    .left, .right {
+        float: none;
+    }
+
+    body {
+        background: #000;
+        padding: 20px;
+        position: relative;
+
+    }
+
+    .contacts_bottom {
+        top: 100%;
+        margin-top: -40px;
+        padding-left: 20px;
+        background: #000 url("../images/logo_small2.gif") no-repeat 20px 10px;
+        font-size: 16px;
+        width: 200px;
+    }
+
+    .right .logo {
+        position: absolute;
+        left: 50%;
+        margin-left: -30px;
+
+    }
+
+    .left {
+        text-align: center;
+        width: auto;
+        margin: 0;
+        border: 0;
+        height: auto;
+        position: static;
+    }
+
+    .left .title span {
+        font-size: 20px;
+
+    }
+
+    .menu {
+        text-align: left;
+        margin-top: 5px;
+
+    }
+
+    .left .title em {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .menu li a {
+        font-size: 14px;
+    }
+
+    .menu li.active li a {
+        font-size: 13px;
+    }
+
+    .menu li.active li.active li a {
+        font-size: 12px;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .nav_activation {
+        display: block;
+        border: 1px dotted #bfbfbf;
+        font-size: 18px;
+        padding: 5px;
+        text-align: center;
+        cursor: pointer;
+        color: #bfbfbf;
+
+    }
+
+    .right .container {
+        padding-top: 10px;
+    }
+
+    .bottom_shadow, .top_shadow {
+        display: none;
+    }
+
+    .content p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    #slider {
+        width: 200px;
+        height: 130px;
+        margin-left: -20px;
+    }
+
+    .gallery img {
+        width: 200px;
+        height: 130px;
+    }
+
+    .gallery li {
+        width: 200px !important;
+    }
+
+    .gallery {
+        width: 200px !important;
+        height: 130px;
+    }
+
+    #slider .next {
+        left: 260px;
+    }
+
+    #cont{
+        height: auto;
+        padding-bottom: 50px;
+
+    }
+
 }
