@@ -23,6 +23,12 @@ $(function () {
             showArrows:true,
             arrowScrollOnClick:true
         });
+        if ($(window).height()>600){
+           $('.cont').css('margin-top', ($(window).height()-600)/2+'px');
+           }
+           else {
+               $('.cont').css('margin-top', '20px');
+           }
     });
 
     $('.gallery').jCarouselLite({
@@ -49,6 +55,12 @@ $(function () {
 
 
     });
+    if ($(window).height()>600){
+    $('.cont').css('margin-top', ($(window).height()-600)/2+'px');
+    }
+    else {
+        $('.cont').css('margin-top', '20px');
+    }
 
 
 });
