@@ -169,6 +169,7 @@
         padding-left: 60px;
         width: auto;
         font-size: 14px;
+        height: auto;
     }
 
     .link_map {
@@ -183,6 +184,7 @@
         width: auto;
         font-size: 14px;
         background: none;
+        height: auto;
     }
 
 
