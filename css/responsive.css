@@ -142,7 +142,7 @@
     }
 }
 
-@media (max-width:768px) {
+@media (max-width:767px) {
     .scroll .inner {
         padding-right: 50px;
 
