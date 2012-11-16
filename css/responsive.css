@@ -355,6 +355,10 @@
         padding-right: 14px;
     }
 
+    .link_menu{
+        padding-left: 52px;
+    }
+
     .dot{
         display: none;
     }
@@ -370,11 +374,15 @@
     
     .home_contacts{
         font-size: 15px;
-        width: 164px;
+        width: 166px;
 
     }
     .mid{
         left:5px;
+    }
+
+    .cont{
+        height: auto;
     }
 
 }
