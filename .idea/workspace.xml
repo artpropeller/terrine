@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="628152e8-a76b-443c-b474-b47920cf0c78" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/home_button_right.gif" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/responsive.css" afterPath="$PROJECT_DIR$/css/responsive.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
     </list>
     <ignored path="TERRINE.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,7 +26,7 @@
       <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="489" column="22" selection-start="7505" selection-end="7505" vertical-scroll-proportion="0.686217">
+            <state line="495" column="1" selection-start="7538" selection-end="7538" vertical-scroll-proportion="0.8445748">
               <folding />
             </state>
           </provider>
@@ -269,7 +268,11 @@
       <created>1352998321487</created>
       <updated>1352998321487</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="oth">
+      <created>1353054006578</created>
+      <updated>1353054006578</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -440,7 +443,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="489" column="22" selection-start="7505" selection-end="7505" vertical-scroll-proportion="0.686217">
+        <state line="495" column="1" selection-start="7538" selection-end="7538" vertical-scroll-proportion="0.8445748">
           <folding />
         </state>
       </provider>
