@@ -42,7 +42,7 @@
       <file leaf-file-name="responsive.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/responsive.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="144" column="21" selection-start="1817" selection-end="1817" vertical-scroll-proportion="-0.09618105">
+            <state line="350" column="21" selection-start="5024" selection-end="5024" vertical-scroll-proportion="0.20650637">
               <folding />
             </state>
           </provider>
@@ -51,7 +51,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="54" selection-start="1708" selection-end="1708" vertical-scroll-proportion="-11.807693">
+            <state line="44" column="0" selection-start="1784" selection-end="1784" vertical-scroll-proportion="-17.038462">
               <folding />
             </state>
           </provider>
@@ -280,7 +280,11 @@
       <created>1353055724290</created>
       <updated>1353055724290</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="oth">
+      <created>1353055967280</created>
+      <updated>1353055967280</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -430,13 +434,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="54" selection-start="1708" selection-end="1708" vertical-scroll-proportion="-11.807693">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/home_button.gif">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -449,9 +446,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="0" selection-start="1784" selection-end="1784" vertical-scroll-proportion="-17.038462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="144" column="21" selection-start="1817" selection-end="1817" vertical-scroll-proportion="-0.09618105">
+        <state line="350" column="21" selection-start="5024" selection-end="5024" vertical-scroll-proportion="0.20650637">
           <folding />
         </state>
       </provider>

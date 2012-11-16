@@ -49,11 +49,11 @@
 
     .enter {
         font-size: 14px;
-        width: 104px;
+        width: 106px;
     }
 
     .home_contacts {
-        width: 140px;
+        width: 142px;
         font-size: 13px;
         padding-top: 34px;
     }
@@ -163,7 +163,7 @@
         position: relative;
         background: none;
         top: -30px;
-        display: inline;
+        display: inline-block;
         text-align: center;
         padding: 0;
         padding-left: 60px;
@@ -176,7 +176,7 @@
         position: relative;
         margin-right: -83px;
         top: -5px;
-        display: inline;
+        display: inline-block;
         text-align: center;
         padding: 0;
         padding-right: 25px;
@@ -184,6 +184,7 @@
         font-size: 14px;
         background: none;
     }
+
 
 }
 
@@ -338,6 +339,42 @@
         height: auto;
         padding-bottom: 50px;
 
+    }
+
+    .link_map, .link_menu, .enter{
+        font-size: 16px;
+
+
+    }
+
+    .enter{
+        width: 122px;
+    }
+
+    .link_map{
+        padding-right: 14px;
+    }
+
+    .dot{
+        display: none;
+    }
+
+    .home_logo2{
+        margin-bottom: 75px;
+    }
+
+    .phone{
+        margin-bottom: 35px;
+
+    }
+    
+    .home_contacts{
+        font-size: 15px;
+        width: 164px;
+
+    }
+    .mid{
+        left:5px;
     }
 
 }
