@@ -297,7 +297,7 @@ a {
     background: url(../images/test.png) repeat-x left;
     position: absolute;
     z-index: 1;
-    margin: 0px 0 0 10px;
+    margin: 0 0 0 10px;
 }
 
 .bottom_shadow {
@@ -419,7 +419,7 @@ a {
 .home_logo2 {
     text-align: center;
     position: relative;
-    margin:0 auto 150px;
+    margin: 0 auto 150px;
     width: 166px;
     left: 20px;
 
@@ -454,13 +454,13 @@ a {
 
 }
 
-.mid{
+.mid {
     max-width: 860px;
     margin: 0 auto;
     position: relative;
 }
 
-.link_menu, .link_map{
+.link_menu, .link_map {
     display: block;
     background: url("../images/home_button.gif") no-repeat;
     width: 126px;
@@ -475,10 +475,10 @@ a {
     padding-left: 40px;
     margin-top: -25px;
     position: absolute;
-    left:0;
+    left: 0;
 }
 
-.link_map{
+.link_map {
     float: right;
     padding-left: 20px;
     width: 146px;
@@ -486,7 +486,13 @@ a {
     position: absolute;
     left: auto;
     right: 0;
+    background: url("../images/home_button_right.gif") no-repeat;
+    text-align: center;
 
+}
+
+.home a{
+    color: #000;
 }
 
 
