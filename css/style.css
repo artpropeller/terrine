@@ -446,7 +446,7 @@ a {
 .home_contacts {
     background: url("../images/logo_small.gif") no-repeat center top;
     height: 20px;
-    width: 119px;
+    width: 123px;
     margin: 0 auto;
     font-size: 11px;
     color: #000;
@@ -462,8 +462,8 @@ a {
 
 .link_menu, .link_map {
     display: block;
-    background: url("../images/home_button.gif") no-repeat;
-    width: 126px;
+    background: url("../images/home_button.gif") no-repeat left;
+    width: 125px;
     height: 36px;
     text-align: left;
     color: #000;
@@ -481,12 +481,12 @@ a {
 .link_map {
     float: right;
     padding-left: 20px;
-    width: 146px;
+    width: 145px;
     margin-top: -57px;
     position: absolute;
     left: auto;
     right: 0;
-    background: url("../images/home_button_right.gif") no-repeat;
+    background: url("../images/home_button_right.gif") no-repeat right;
     text-align: center;
 
 }

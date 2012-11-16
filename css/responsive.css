@@ -47,7 +47,25 @@
         padding-top: 15px;
     }
 
+    .enter {
+        font-size: 14px;
+        width: 104px;
+    }
 
+    .home_contacts {
+        width: 140px;
+        font-size: 13px;
+        padding-top: 34px;
+    }
+
+    .phone {
+        font-size: 19px;
+        width: 137px;
+    }
+
+    .phone em {
+        font-size: 12px;
+    }
 
 }
 
@@ -139,6 +157,34 @@
         width: 90%;
     }
 
+    .link_menu {
+        left: 50%;
+        margin-left: -83px;
+        position: relative;
+        background: none;
+        top: -30px;
+        display: inline;
+        text-align: center;
+        padding: 0;
+        padding-left: 60px;
+        width: auto;
+        font-size: 14px;
+    }
+
+    .link_map {
+        right: 50%;
+        position: relative;
+        margin-right: -83px;
+        top: -5px;
+        display: inline;
+        text-align: center;
+        padding: 0;
+        padding-right: 25px;
+        width: auto;
+        font-size: 14px;
+        background: none;
+    }
+
 }
 
 @media (min-width:490px) and (max-width:640px) {
@@ -204,7 +250,7 @@
         position: static;
     }
 
-    .right{
+    .right {
         margin-left: 0;
     }
 
@@ -288,7 +334,7 @@
         left: 260px;
     }
 
-    #cont{
+    #cont {
         height: auto;
         padding-bottom: 50px;
 
