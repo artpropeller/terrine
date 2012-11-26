@@ -16,6 +16,9 @@
         width: auto;
 
     }
+    .content.photo .scroll .inner{
+        width: auto;
+    }
 
     .scroll {
         width: auto !important;
@@ -67,6 +70,15 @@
         font-size: 12px;
     }
 
+    .listing {
+        padding-top: 25px;
+        text-align: center;
+    }
+
+    .listing img {
+        width: 300px;
+    }
+
 }
 
 @media (min-width:480px) and (max-width:999px) {
@@ -82,15 +94,27 @@
 
     }
 
+    .content.photo .scroll .inner{
+        padding-right: 120px;
+    }
+
     .scroll .inner {
 
-        padding-right: 180px;
+        padding-right: 70px;
 
     }
 
     .scroll {
         height: 125px;
 
+    }
+
+    .scroll.photo{
+        height: 300px;
+    }
+
+    .content.photo .bottom_shadow{
+        margin-top: 290px;
     }
 
     .left {
@@ -140,6 +164,9 @@
     .menu {
         margin-top: 10px;
     }
+    .content.photo{
+        width: 100%;
+    }
 }
 
 @media (max-width:767px) {
@@ -187,6 +214,9 @@
         height: auto;
     }
 
+    .content.photo .scroll .inner{
+           padding-right:50px;
+       }
 
 }
 
@@ -212,6 +242,18 @@
 
     #slider .next {
         left: 260px;
+    }
+
+    #slider.listing {
+        width: auto;
+    }
+
+    .listing img {
+        margin: 0 auto;
+    }
+
+    .content.photo{
+        width: 100%;
     }
 
 }
@@ -343,48 +385,65 @@
 
     }
 
-    .link_map, .link_menu, .enter{
+    .link_map, .link_menu, .enter {
         font-size: 16px;
-
 
     }
 
-    .enter{
+    .enter {
         width: 122px;
     }
 
-    .link_map{
+    .link_map {
         padding-right: 14px;
     }
 
-    .link_menu{
+    .link_menu {
         padding-left: 52px;
     }
 
-    .dot{
+    .dot {
         display: none;
     }
 
-    .home_logo2{
+    .home_logo2 {
         margin-bottom: 75px;
     }
 
-    .phone{
+    .phone {
         margin-bottom: 20px;
 
     }
-    
-    .home_contacts{
+
+    .home_contacts {
         font-size: 15px;
         width: 166px;
 
     }
-    .mid{
-        left:5px;
+
+    .mid {
+        left: 5px;
     }
 
-    .cont{
+    .cont {
         height: auto;
+    }
+
+    #slider.listing {
+        width: auto;
+        text-align: center;
+        height: auto;
+        float: none;
+    }
+
+    .listing img {
+        margin: 0 auto;
+        width: 250px;
+        display: block;
+    }
+
+    .scroll .inner{
+        padding-right: 0;
     }
 
 }
