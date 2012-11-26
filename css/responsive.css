@@ -88,6 +88,10 @@
 
     }
 
+    .content.photo{
+        height: auto;
+    }
+
     .right {
 
         margin-left: 190px;
@@ -214,9 +218,7 @@
         height: auto;
     }
 
-    .content.photo .scroll .inner{
-           padding-right:50px;
-       }
+
 
 }
 
@@ -444,6 +446,17 @@
 
     .scroll .inner{
         padding-right: 0;
+    }
+
+    .content.photo .scroll .inner{
+        padding-right: 0;
+
+
+    }
+
+    .content.photo .scroll .inner img{
+        width: 110px;
+
     }
 
 }
